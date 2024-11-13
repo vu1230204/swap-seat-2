@@ -1,0 +1,289 @@
+
+ul,li{
+   list-style: none;
+}
+
+
+.main-menu li{
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 25px;
+}
+
+#header .top{
+    background-color: #000000B2;
+}
+
+.header-banner{
+    background-image: url(/img/background/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.main{
+    height: 100vh;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    justify-content: end;
+}
+
+.logo{
+    position: relative;
+    margin: 20px auto;
+    left: 88px;
+}
+
+.btn-started{
+    background-color: #CD0000 ;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 10px;
+    color: #fff;
+}
+
+.btn-more{
+    padding: 15px 45px;
+    margin-bottom: 20px;
+}
+
+.main .container{
+    color: #fff;
+   
+}
+.decreption {
+    padding: 0;
+    position: relative;
+    top: 50px;
+    left: 96px;                               
+}
+
+.favorite-content{
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 700;
+}
+.dcr-content{
+    display: block;
+}
+.lorem-content{
+    opacity: 60%;
+}
+
+.highlight{
+    color: red;
+}
+
+.appstore{
+    margin-right: 20px;
+}
+
+.chat-box{
+    padding: 0;
+    position: relative;
+    top: 50px;
+    left: 52px;
+}
+
+.p-about{
+    color: #cd0000; 
+    font-size: 20px; 
+    font-weight: 600;
+}
+.h-content{
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 2;
+}
+
+.p-content{
+    font-size: 16px;
+    font-weight: 400;
+    color: #161c2d;
+    line-height: 2;
+}
+
+
+   
+h1{
+    font-size: 40px !important;
+}
+
+.describe-content, .member{
+    position: relative;
+}
+.describe-content{
+    top: 110px;
+    left: 110px;
+}
+.member{
+    top: 100px;
+}
+.middle .container .row{
+    height: 100%;
+}
+
+.middle-information{
+    padding-top: 100px;
+}
+
+.enhance-content, .ticket{
+    position: relative;
+}
+
+.enhance-content{
+    top: 110px;
+    left: 60px;
+}
+.ticket{
+    top: 50px;
+}
+
+.step-icon {
+    font-size: 2.5rem;
+    color: white;
+    background-color: #d50000;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .step-title {
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  .steps-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+.step-by-step .steps-container{
+    line-height: 2;
+}
+
+
+h2{
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+
+.demo-video{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 71.84px;
+    background: linear-gradient(#ffffff 50%,#313C59 50%);
+    
+}
+
+.features{
+    background-color: #313C59;
+    height: 100vh;
+
+}
+.features .container{
+    position: relative;
+    top: 125px;
+    color: #fff;
+}
+
+.features-section {
+    background-color: #313C59;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+.features-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+ 
+.feature-box {
+    margin-bottom: 2rem;
+    display: flex;
+}
+.information-content{
+    margin: 5px 35px;
+}
+
+
+
+.bottom {
+    background-color: #313C59;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+.reviews-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.review-card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+.review-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.review-author {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.review-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.review-header-barry,
+.review-header-issac,
+.review-header-esther {
+    display: flex;
+}
+
+
+.footer h5 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer ul li a {
+    color: #000;
+  }
+  
+  .footer ul li a:hover {
+    color: #000;
+  }
+  
+  .social-icons a {
+    color: #6c757d;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+  }
+
+.social-icons{
+    position: relative;
+    left: 575px;
+}
