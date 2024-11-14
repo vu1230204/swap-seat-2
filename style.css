@@ -120,16 +120,14 @@ h1{
     font-size: 40px !important;
 }
 
-.describe-content, .member{
+.describe-content{
     position: relative;
 }
 .describe-content{
     top: 110px;
     left: 110px;
 }
-.member{
-    top: 100px;
-}
+
 .middle .container .row{
     height: 100%;
 }
@@ -148,6 +146,7 @@ h1{
 }
 .ticket{
     top: 50px;
+    left: 70px;
 }
 
 .step-icon {
@@ -164,10 +163,6 @@ h1{
   }
   .step-title {
     font-weight: bold;
-    margin-top: 2rem;
-  }
-  .steps-container {
-    text-align: center;
     margin-top: 2rem;
   }
 
@@ -192,7 +187,8 @@ h2{
 
 .features{
     background-color: #313C59;
-    height: 100vh;
+    height: 80vh; 
+
 
 }
 .features .container{
