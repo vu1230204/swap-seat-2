@@ -20,13 +20,10 @@ ul,li{
     background-image: url(/img/background/BG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     position: relative;
 }
 
-.main{
-    height: 100vh;
-}
+
 .main-menu{
     display: flex;
     align-items: center;
@@ -35,9 +32,7 @@ ul,li{
 }
 
 .logo{
-    position: relative;
-    margin: 20px auto;
-    left: 88px;
+    margin: auto;
 }
 
 .btn-started{
@@ -59,13 +54,9 @@ ul,li{
 
 .main .container{
     color: #fff;
-   
 }
 .decreption {
-    padding: 0;
-    position: relative;
-    top: 50px;
-    left: 96px;                               
+                               
 }
 
 .favorite-content{
@@ -83,17 +74,17 @@ ul,li{
 .highlight{
     color: red;
 }
-
+.main .container{
+    padding-top: 96px;
+}
 .appstore{
     margin-right: 20px;
 }
 
-.chat-box{
-    padding: 0;
-    position: relative;
-    top: 50px;
-    left: 52px;
+.chat-box img{
+    width: 100%;
 }
+
 
 .p-about{
     color: #cd0000; 
@@ -140,14 +131,7 @@ h1{
     position: relative;
 }
 
-.enhance-content{
-    top: 110px;
-    left: 60px;
-}
-.ticket{
-    top: 50px;
-    left: 70px;
-}
+
 
 .step-icon {
     font-size: 2.5rem;
@@ -175,25 +159,22 @@ h2{
     font-weight: 700;
     padding-bottom: 45px;
 }
-
 .demo-video{
     height: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 71.84px;
-    background: linear-gradient(#ffffff 50%,#313C59 50%);
+    background-image:  linear-gradient(#ffffff 50%,#313C59 50%);
     
+}
+.demo-video img{
+    width: 90%;
+    aspect-ratio: 1140/652;
+    margin-top: 71.84px;
 }
 
 .features{
     background-color: #313C59;
-    height: 80vh; 
-
-
+    padding-top: 100px;
 }
 .features .container{
-    position: relative;
-    top: 125px;
     color: #fff;
 }
 
@@ -258,7 +239,11 @@ h2{
     display: flex;
 }
 
-
+.footer .col-md-6{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
 .footer h5 {
     margin-bottom: 1rem;
   }
@@ -270,6 +255,14 @@ h2{
   .footer ul li a:hover {
     color: #000;
   }
+
+  .text-center .col{
+    justify-content: space-between;
+  }
+  
+  .social-icons{
+    padding-right: 75px;
+  }
   
   .social-icons a {
     color: #6c757d;
@@ -279,7 +272,47 @@ h2{
     color: #000;
   }
 
-.social-icons{
-    position: relative;
-    left: 575px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .top .row .col-sm-12{
+        display: flex;
+    }
+    .main .container p{
+        text-align: center;
+    }
+    .download {
+        display: contents;
+        padding-top: 40px;
+    }
+    .text-center .col{
+        flex-wrap: wrap;
+    }
+
+    .social-icons{
+        display: contents;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+@media only screen and (max-width: 992px) {
+    .top .main-menu{
+        display: none;
+    }
 }
