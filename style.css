@@ -297,7 +297,9 @@ h2{
     .social-icons{
         display: contents;
     }
-
+    .p-about, .h-content{
+        text-align: center;
+    }
 
 }
 
