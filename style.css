@@ -281,6 +281,11 @@ h2{
     .main .container p{
         text-align: center;
     }
+
+    .chat-box{
+        padding-top: 100px;
+        margin-left: -50px;
+    }
     .download {
         display: contents;
         padding-top: 40px;
@@ -311,6 +316,8 @@ h2{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+
 @media only screen and (max-width: 992px) {
     .top .main-menu{
         display: none;
